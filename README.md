@@ -30,34 +30,19 @@ npm start
 
 ## Features
 
-### App
 
-- implement dark mode
-- customize theme with Mui
-- ability to add user login
-- ability to add in notifications
-- navigation shows all projects and favorite projects
-- responsive design
+### Tasks & Todos
 
-### Projects
+- Create a Task
+- Find a Task
+- Delete a Task
+- Search Task through search bar
+- View individul Task
 
-- Create a project
-- Favor a project
-- Update a projects color and name
-- Delete a project
-- Search projects through search bar
-- View individul projects
+### Shopping Lists
 
-### Project Dashboard
-
-- View all project boards and tasks
-- Update/Delete project within dashboard
-
-### Boards
-
-- Create a new dashboard
-- Delete a current dashboard
-- Update a dashboard's name
+- Create a shopping list
+- Update/Delete shopping lists already in the backend
 
 ### Tasks
 
