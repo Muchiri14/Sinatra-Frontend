@@ -1,29 +1,68 @@
-Becoming a productivity ninja
+# Project Task Management App
 
-This application navigates between 4 different components:
+This management app lets you organize Tasks and Todos of your day.
 
-1) Home
 
-    The Home component enables the user to get weather information based on their location.
-    The weather data is fetched from the openweathermap API (https://openweathermap.org/api)
-    
-    This component also provides the user with some of the latest news headlines from the BBC, fetched from https://newsapi.org/
+## Front-end Project Task Management Interface
 
-2) Todo  List
+You can use this app in conjunction with my backend API server so as to be able to login.
+As all the login credentials of the users are contained in the backend. 
 
-    This component lets the user curate a todo-list where they can add and remove todo items from the list and also filter the todo list based on different categories.
+## Technologies Used In This App
 
-3) Shopping List
+- JavaScript
+- React
+- Mui
+- Custom API Server
 
-     Similarly to the previous component, this component lets the user curate a shopping list where they can add and remove  items from the list and also filter the list based on different categories.
+## How To Use
 
-4) Pomodoro Timer
+Install and run:
 
-    This last component contains a timer feature that supports the pomodoro technique which traditionally breaks down work into 25-minute intervals, separated by 5-minute breaks.
-    For more info on the pomodoro technique, visit
-    https://lifehacker.com/productivity-101-a-primer-to-the-pomodoro-technique-1598992730
-    https://todoist.com/productivity-methods/pomodoro-technique
+```sh
+gem install
 
-    
-    
-    
+# start up your server
+# start up react
+npm start
+
+```
+
+## Features
+
+### App
+
+- implement dark mode
+- customize theme with Mui
+- ability to add user login
+- ability to add in notifications
+- navigation shows all projects and favorite projects
+- responsive design
+
+### Projects
+
+- Create a project
+- Favor a project
+- Update a projects color and name
+- Delete a project
+- Search projects through search bar
+- View individul projects
+
+### Project Dashboard
+
+- View all project boards and tasks
+- Update/Delete project within dashboard
+
+### Boards
+
+- Create a new dashboard
+- Delete a current dashboard
+- Update a dashboard's name
+
+### Tasks
+
+- Organizes tasks by due date
+- Moves completed tasks to the bottom of dashboard list
+- Create new tasks
+- Delete a task
+- Update task name, due date, priority, status, and associated board
