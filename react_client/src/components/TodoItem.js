@@ -5,7 +5,7 @@ import React from "react";
 function TodoItem({ category, title, todoId, onDeleteTodo }) {
 
     function handleClick() {
-        fetch(`http://localhost:9292/todos/${todoId}`, {
+        fetch(`http://127.0.0.1:9393/todos ${todoId}`, {
             method: "DELETE"
         });
         onDeleteTodo(todoId)}

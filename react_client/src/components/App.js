@@ -28,7 +28,7 @@ function App() {
 
 
   async function login(details) {
-    await fetch("http://localhost:9292/login", {
+    await fetch("http://127.0.0.1:9393//login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -27,7 +27,7 @@ function ShoppingNewItemForm({ shoppingCategories, onNewShoppingItemFormSubmit})
 
     function handleSubmit(event) {
         event.preventDefault()
-        fetch("http://localhost:9292/shopping_items", {
+        fetch("http://127.0.0.1:9393//shopping_items", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

@@ -11,7 +11,7 @@ function ShoppingApplication() {
     const {user, setUser} = useContext(UserContext);
 
     useEffect(() => {
-        fetch("http://localhost:9292/shopping_items")
+        fetch("http://127.0.0.1:9393//shopping_items")
           .then((r) => r.json())
           .then(function(data) {
             
@@ -20,7 +20,7 @@ function ShoppingApplication() {
     
    
       useEffect(() => {
-        fetch("http://localhost:9292/shopping_categories")
+        fetch("http://127.0.0.1:9393//shopping_categories")
           .then((r) => r.json())
           .then(function(data) {
             setShoppingCategories(data)

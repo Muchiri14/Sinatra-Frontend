@@ -12,14 +12,14 @@ function TodoApplication() {
   const {user, setUser} = useContext(UserContext);
   
   useEffect(() => {
-    fetch("http://localhost:9292/todos")
+    fetch("http://127.0.0.1:9393/todos")
       .then((r) => r.json())
       .then(function(data) {
         setTodos(data.filter((todo)=>(todo.user_id === user.id)))});
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:9292/todo_categories")
+    fetch("http://127.0.0.1:9393/todo_categories")
       .then((r) => r.json())
       .then(function(data) {
         setTodoCategories(data)

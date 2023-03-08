@@ -3,7 +3,7 @@ import React from "react";
 function ShoppingItem({ category, title, itemId, onDeleteItem }) {
 
     function handleClick() {
-        fetch(`http://localhost:9292/shopping_items/${itemId}`, {
+        fetch(`http://127.0.0.1:9393//shopping_items ${itemId}`, {
             method: "DELETE"
         });
         onDeleteItem(itemId)}
