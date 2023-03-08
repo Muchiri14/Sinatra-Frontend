@@ -12,7 +12,6 @@ As all the login credentials of the users are contained in the backend.
 
 - JavaScript
 - React
-- Mui
 - Custom API Server
 
 ## How To Use
@@ -20,7 +19,7 @@ As all the login credentials of the users are contained in the backend.
 Install and run:
 
 ```sh
-gem install
+npm install
 
 # start up your server
 # start up react
